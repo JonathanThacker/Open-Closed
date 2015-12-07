@@ -13,9 +13,9 @@ if ( myDate.getDay() < 1 )  {     document.write("We're closed Sundays."); } els
 
 if ( myDate.getHours() < 11 &&  myDate.getDay() > 0 )  {     document.write("We'll be open at 11 a.m."); } else 
 
- /* Hour is from noon to 6:59 pm) */ 
+ /* Hour is from 11am to 6:59 pm) */ 
  
- if ( myDate.getHours() >= 12 && myDate.getHours() <= 19 &&  myDate.getDay() > 0 &&  myDate.getDay() < 6 ) {     document.write("We're open right now!"); } else  
+ if ( myDate.getHours() >= 11 && myDate.getHours() <= 19 &&  myDate.getDay() > 0 &&  myDate.getDay() < 6 ) {     document.write("We're open right now!"); } else  
 
 /* the hour is after 7pm */ 
 
