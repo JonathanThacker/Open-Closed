@@ -1,3 +1,8 @@
+<!--
+Buisness is open Mon-Fri 11a-7p, Sat 11a-4p, and Closed Sundays. When you visitor arrives to your site, 
+this script will tell them whether or not your open for business.
+-->
+
 <script language="JavaScript"> 
 
 var myDate = new Date();    
